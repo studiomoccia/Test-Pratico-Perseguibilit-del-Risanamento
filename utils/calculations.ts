@@ -1,5 +1,5 @@
 
-import { TestData, TestResult, DifficultyLevel } from '../types';
+import { TestData, TestResult, DifficultyLevel } from '../types.ts';
 
 export const formatCurrency = (value: number): string => {
   return new Intl.NumberFormat('it-IT', {

@@ -1,8 +1,8 @@
 
-import React, { useState, useEffect, useCallback } from 'react';
-import { TestData, TestResult } from './types';
-import { calculateTest, formatCurrency } from './utils/calculations';
-import InputGroup from './components/InputGroup';
+import React, { useState, useEffect } from 'react';
+import { TestData, TestResult } from './types.ts';
+import { calculateTest, formatCurrency } from './utils/calculations.ts';
+import InputGroup from './components/InputGroup.tsx';
 
 const initialData: TestData = {
   azienda: '',
